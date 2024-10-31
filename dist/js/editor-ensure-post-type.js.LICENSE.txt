@@ -1,0 +1,7 @@
+/*!
+ * Ensure block editor is post type.
+ *
+ * @handle rich-taxonomy-ensure-post-type
+ * @deps wp-data, wp-block-editor
+ * @see https://gist.github.com/KevinBatdorf/fca19e1f3b749b5c57db8158f4850eff
+ */

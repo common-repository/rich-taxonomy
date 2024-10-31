@@ -1,0 +1,7 @@
+/*!
+ * block style for Term Archive block.
+ *
+ * @package rich-taxonomy
+ * @handle rich-taxonomy-term-archive-block
+ */.rich-taxonomy-wrapper{margin-top:2em;margin-bottom:2em}.rich-taxonomy-toggle-button+.rich-taxonomy-more-button{display:none}.rich-taxonomy-container{display:flex;flex-wrap:wrap}.rich-taxonomy-container>*{flex:0 1 33.333333%;padding:10px;box-sizing:border-box}.align-full{flex:0 1 25%}@media only screen and (max-width: 700px){.rich-taxonomy-container>*{flex:0 1 50%}}@media only screen and (max-width: 500px){.rich-taxonomy-container>*{flex:0 1 100%}}.rich-taxonomy-item-hidden{display:none}.rich-taxonomy-item-link{display:block;height:100%;padding:10px}.rich-taxonomy-item-link:link,.rich-taxonomy-item-link:visited{text-decoration:none !important;color:inherit;box-shadow:0 0 5px rgba(0,0,0,.4);background-color:#fff}.rich-taxonomy-item-link:hover,.rich-taxonomy-item-link:active{box-shadow:none;text-decoration:none !important;color:inherit}.rich-taxonomy-item-thumbnail{margin:0 0 .5em;width:100%;position:relative;overflow:hidden}.rich-taxonomy-item-thumbnail::before{position:relative;display:block;content:"";width:100%;padding-top:75%}.rich-taxonomy-item-image{width:100% !important;height:100% !important;position:absolute;top:50%;margin-top:-50%;left:0;right:0;-o-object-fit:cover;object-fit:cover}.rich-taxonomy-item-title{display:block;font-weight:700;color:inherit;font-size:1em}.rich-taxonomy-item-meta{font-size:smaller;display:block}.rich-taxonomy-footer{margin-top:1em}
+/*# sourceMappingURL=map/term-archive-block-style.css.map */

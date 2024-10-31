@@ -1,0 +1,96 @@
+[
+	{
+		"handle": "rich-taxonomy-term-archive-block-editor",
+		"path": "dist/css/term-archive-block-style-editor.css",
+		"ext": "css",
+		"hash": "0e59a9fd8183f218c8690d66d0e1bf9b",
+		"version": "0.0.0",
+		"deps": [],
+		"footer": true,
+		"media": "all"
+	},
+	{
+		"handle": "rich-taxonomy-term-archive-block",
+		"path": "dist/css/term-archive-block-style.css",
+		"ext": "css",
+		"hash": "11d2d27dd9be029e57e2beed7a511c07",
+		"version": "0.0.0",
+		"deps": [],
+		"footer": true,
+		"media": "all"
+	},
+	{
+		"handle": "rich-taxonomy-admin-ui-tag-list",
+		"path": "dist/js/admin-ui-tag-list.js",
+		"ext": "js",
+		"hash": "b472939201292486c7681f585ce7bcb5",
+		"version": "0.0.0",
+		"deps": [
+			"jquery",
+			"wp-i18n",
+			"wp-api-fetch"
+		],
+		"footer": true,
+		"media": "all"
+	},
+	{
+		"handle": "rich-taxonomy-term-archive-block-helper",
+		"path": "dist/js/block-archive-helper.js",
+		"ext": "js",
+		"hash": "f273d82f9073a4732a39549d759cf6cf",
+		"version": "0.0.0",
+		"deps": [
+			"jquery"
+		],
+		"footer": true,
+		"media": "all"
+	},
+	{
+		"handle": "rich-taxonomy-term-archive-block",
+		"path": "dist/js/block-archive.js",
+		"ext": "js",
+		"hash": "00965abf8bacd72f420c3f26b139f2e8",
+		"version": "0.0.0",
+		"deps": [
+			"rich-taxonomy-ensure-post-type",
+			"wp-blocks",
+			"wp-i18n",
+			"wp-server-side-render",
+			"wp-block-editor",
+			"wp-components",
+			"wp-data"
+		],
+		"footer": true,
+		"media": "all"
+	},
+	{
+		"handle": "rich-taxonomy-ensure-post-type",
+		"path": "dist/js/editor-ensure-post-type.js",
+		"ext": "js",
+		"hash": "2004c996f4e29c62fc6074685c6ba507",
+		"version": "0.0.0",
+		"deps": [
+			"wp-data",
+			"wp-block-editor"
+		],
+		"footer": true,
+		"media": "all"
+	},
+	{
+		"handle": "rich-taxonomy-editor-helper",
+		"path": "dist/js/editor-helper.js",
+		"ext": "js",
+		"hash": "6b556686f8596945a6d34647bda995d9",
+		"version": "0.0.0",
+		"deps": [
+			"wp-element",
+			"wp-plugins",
+			"wp-edit-post",
+			"wp-components",
+			"wp-data",
+			"wp-i18n"
+		],
+		"footer": true,
+		"media": "all"
+	}
+]

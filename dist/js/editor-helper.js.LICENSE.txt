@@ -1,0 +1,6 @@
+/*!
+ * Editor helper.
+ *
+ * @handle rich-taxonomy-editor-helper
+ * @deps wp-element, wp-plugins, wp-edit-post, wp-components, wp-data, wp-i18n
+ */

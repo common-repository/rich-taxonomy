@@ -1,0 +1,7 @@
+/*!
+ * Archive block.
+ *
+ * @handle rich-taxonomy-term-archive-block-helper
+ * @deps jquery
+ * @package rich-taxonomy
+ */

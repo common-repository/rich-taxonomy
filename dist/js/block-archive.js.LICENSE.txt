@@ -1,0 +1,7 @@
+/*!
+ * Archive block.
+ *
+ * @handle rich-taxonomy-term-archive-block
+ * @deps rich-taxonomy-ensure-post-type, wp-blocks, wp-i18n, wp-server-side-render, wp-block-editor, wp-components, wp-data
+ * @package rich-taxonomy
+ */

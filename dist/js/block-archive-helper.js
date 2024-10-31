@@ -1,0 +1,2 @@
+/*! License information can be found in block-archive-helper.js.LICENSE.txt */
+(()=>{var t=jQuery;t(".rich-taxonomy-toggle").click((function(){t(this).parents(".rich-taxonomy-wrapper").find(".rich-taxonomy-item-hidden").each((function(o,i){t(i).toggleClass("rich-taxonomy-item-hidden")})),t(this).parents(".rich-taxonomy-toggle-button").remove()}))})();

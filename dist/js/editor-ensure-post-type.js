@@ -1,0 +1,2 @@
+/*! License information can be found in editor-ensure-post-type.js.LICENSE.txt */
+(()=>{var e=wp.data,o=e.select,r=e.subscribe,t=RichTaxonomyEnsurePostType.postType;wp.richTaxonomyReady=function(e){var i=r((function(){var r=o("core/editor");if(!r)return i(),void e(!1);if(r.isCleanNewPost()||o("core/block-editor").getBlockCount()>0){var c=o("core/editor").getCurrentPostType();i(),e(t===c)}}))}})();

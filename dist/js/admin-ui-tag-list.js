@@ -1,0 +1,2 @@
+/*! License information can be found in admin-ui-tag-list.js.LICENSE.txt */
+(()=>{var t=jQuery,e=wp.apiFetch,__=wp.i18n.__;t(document).ready((function(){t(".wp-list-table").on("click",".rich-taxonomy-link",(function(n){var i=t(this),a=i.attr("href").replace(/#create-/,"");if(/^\d+$/.test(a)){var o=t(this).text();i.text(__("Generating…","rich-taxonomy")),n.preventDefault(),e({path:"rich-taxonomy/v1/post/"+a,method:"post"}).then((function(t){window.location=t.edit_link})).catch((function(t){alert(t.message)})).finally((function(){i.text(o)}))}}))}))})();
